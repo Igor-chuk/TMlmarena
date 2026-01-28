@@ -4,7 +4,7 @@
 // @version      2025-11-24
 // @description  remove cookies (кроме служебных) и перезагрузить страницу
 // @author       You
-// @match        https://lmarena.ai/*
+// @match        https://arena.ai/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=lmarena.ai
 // @grant        none
 // @run-at       document-start
@@ -47,7 +47,7 @@
     console.log('[TM cookies] Куки для удаления:', targetCookies);
 
     // Если куков для удаления нет — просто выходим, вообще без confirm
-    if (targetCookies.length < 4) {
+    if (targetCookies.length < 5) {
         console.log('[TM cookies] Нечего удалять — выходим без всплывашки');
         return;
     }
