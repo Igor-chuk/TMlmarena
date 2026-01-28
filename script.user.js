@@ -47,7 +47,7 @@
     console.log('[TM cookies] Куки для удаления:', targetCookies);
 
     // Если куков для удаления нет — просто выходим, вообще без confirm
-    if (targetCookies.length < 5) {
+    if (targetCookies.length < 4) {
         console.log('[TM cookies] Нечего удалять — выходим без всплывашки');
         return;
     }
